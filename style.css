@@ -6,4 +6,55 @@
         background-position: center center;
         margin: 0;
         padding: 0;
+        margin-left: 60px;
+}
+
+.p1 {
+color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 4.8px;
+width: 551px;
+height: 174px;
+color: #FFF;
+}
+
+.p2 {
+display: flex;
+width: 556px;
+height: 43px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+
+.p3 {
+width: 529px;
+height: 177px;
+flex-shrink: 0;
+color: #FFF;
+
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+letter-spacing: 1.8px;
+}
+
+.slika-zgrade {
+width: 667px;
+height: 705px;
+flex-shrink: 0;
 }
