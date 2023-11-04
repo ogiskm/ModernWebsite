@@ -131,6 +131,83 @@ letter-spacing: 1.8px;
 text-decoration-line: underline;
 }
 
+.kartice {
+display: flex;
+flex-direction:row;
+justify-content: space-evenly;
+}
+
+.text-pakume {
+        color: #FFF;
+font-family: Lato;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 107.143% */
+letter-spacing: 2.8px;
+}
 
 
+.srednji-text {
+        width: 441px;
+height: 33px;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 0.75);
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+letter-spacing: 2.4px;
+}
 
+
+.ellipse {
+        width: 15px;
+        height: 15px;
+        background-color: #3498db;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%; /* Adjust as needed */
+        left: 50%; /* Adjust as needed */
+        transform: translate(-50%, -50%); /* Center the ellipse */
+        flex-shrink: 0;
+    }
+    
+
+    .text-iznad-tabele {
+width: 1151px;
+height: 46px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 78.947% */
+letter-spacing: 3.8px;
+    }
+
+
+.text-sredina {
+width: 758px;
+color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 138.889% */
+letter-spacing: 1.8px;
+}
+
+
+.kruzici {
+        width: 15px;
+height: 15px;
+flex-shrink: 0;
+fill: #FFF;
+stroke-width: 1px;
+stroke: #04043E;
+}
