@@ -11,10 +11,9 @@
 
 .desni-cosak {
 display: flex;
-width: 935px;
-justify-content: flex-end;
+width: 935px;justify-content: flex-end;
 align-items: center;
-gap: 10px;
+        gap: 10px;
 }
 
 .p1-proba {
@@ -39,9 +38,9 @@ font-family: Lato;
 font-size: 48px;
 font-style: normal;
 font-weight: 800;
-line-height: normal;
-letter-spacing: 4.8px;
-width: 551px;
+        line-height: normal;
+        letter-spacing: 4.8px;
+        width: 551px;
 height: 174px;
 color: #FFF;
 }
@@ -252,13 +251,14 @@ stroke: #04043E;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        cursor: pointer;
 }
 
 .div1 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 229px;
+        width: 100%;
         height: 56px;
         flex-shrink: 0;
         color: #FFF;
@@ -271,10 +271,10 @@ stroke: #04043E;
 }
 
 
-        a:link {
-                color: White;
-        }
+.slika-logo {
+        background-image: url("slike/logo-firme.png");
+        width: 250px;
+        height: 90px;
+        background-repeat: no-repeat;
+}
 
-        a:visited {
-                color: White;
-        }
