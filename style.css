@@ -17,6 +17,22 @@ align-items: center;
 gap: 10px;
 }
 
+.p1-proba {
+        width: 551px;
+        color: #FFF;
+
+        font-family: Lato;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 4.8px;
+}
+
+
+a:hover {
+        color: white;
+}
 .p1 {
 color: #FFF;
 font-family: Lato;
@@ -38,7 +54,7 @@ flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
 color: #FFF;
-
+opacity: 0.5;
 font-family: Lato;
 font-size: 16px;
 font-style: normal;
@@ -79,11 +95,11 @@ letter-spacing: 2.1px;
 }
 
 .slika-zgrade {
-width: 667px;
+width: 650px;
 height: 650px;
 flex-shrink: 0;
 position: absolute;
-top: 70px;
+top: 100px;
 right: 0;
 }
 
@@ -122,13 +138,11 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
 
 .text-kartice1 {
 color: #FFF;
+letter-spacing: 3.3px;
+        font-size: 20px;
 font-family: Lato;
-font-size: 18px;
-font-style: normal;
 font-weight: 500;
-line-height: 25px; /* 138.889% */
-letter-spacing: 1.8px;
-text-decoration-line: underline;
+
 }
 
 .kartice {
@@ -211,3 +225,56 @@ fill: #FFF;
 stroke-width: 1px;
 stroke: #04043E;
 }
+
+.pocetna {
+        display: flex;
+        width: 935px;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        opacity: 75%;
+
+}
+
+
+
+.en {
+        color: #FFFFFFBF;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        font-family: Roboto Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+.div1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 229px;
+        height: 56px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+}
+
+
+        a:link {
+                color: White;
+        }
+
+        a:visited {
+                color: White;
+        }
