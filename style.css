@@ -10,10 +10,15 @@
 }
 
 .desni-cosak {
-display: flex;
-width: 935px;justify-content: flex-end;
-align-items: center;
+        display: flex;
+        width: 935px;
+                justify-content: flex-end;
+                align-items: center;
         gap: 10px;
+        color: #FFFFFFBF;
+                padding: 10px;
+                cursor: pointer;
+                font-weight: 400;
 }
 
 .p1-proba {
@@ -65,7 +70,6 @@ letter-spacing: 1.6px;
 .p3 {
 width: 529px;
 height: 177px;
-flex-shrink: 0;
 color: #FFF;
 
 font-family: Lato;
@@ -136,13 +140,62 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
 }
 
 .text-kartice1 {
-color: #FFF;
-letter-spacing: 3.3px;
-        font-size: 20px;
-font-family: Lato;
-font-weight: 500;
+        width: 224px;
+                height: 232px;
+                flex-shrink: 0;
+                color: #FFF;
+                font-family: Lato;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 25px;
+                /* 138.889% */
+                letter-spacing: 1.8px;
+        
+        }
+        
+        .text-kartice2 {
+                width: 216px;
+                height: 232px;
+                flex-shrink: 0;
+                color: #FFF;
+                font-family: Lato;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 25px;
+                /* 138.889% */
+                letter-spacing: 1.8px;
+        }
+        
+        .text-kartice3 {
+                width: 216px;
+                height: 232px;
+                flex-shrink: 0;
+                        color: #FFF;
+                        font-family: Lato;
+                        font-size: 18px;
+                                font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+                /* 138.889% */
+                letter-spacing: 1.8px;
+        }
 
+.text-kartice4 {
+        width: 215px;
+        height: 232px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        /* 138.889% */
+        letter-spacing: 1.8px;
 }
+
 
 .kartice {
 display: flex;
@@ -276,5 +329,40 @@ stroke: #04043E;
         width: 250px;
         height: 90px;
         background-repeat: no-repeat;
+        cursor: pointer;
+        }
+        
+        
+        .myButton {
+                border-radius: 2px;
+                display: flex;
+                width: 385px;
+                height: 52px;
+                flex-direction: column;
+                justify-content: center;
+                color: #FFF;
+                text-align: center;
+                font-family: Lato;
+                font-size: 21px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 58px;
+                letter-spacing: 2.1px;
+                border-radius: 55px;
+                border: 2px solid #FFF;
+                background: #04053F;
+                width: 385px;
+                height: 52px;
+                text-decoration: none;
+        
+        
+        }
+        
+        
+        .div-kruzici {
+                margin-top: 20px;
+                margin-left: 600px;
+                gap: 15px;
+                display: flex;
 }
 
