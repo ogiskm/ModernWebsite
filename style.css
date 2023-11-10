@@ -25,7 +25,7 @@
         width: 551px;
         color: #FFF;
 
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 48px;
         font-style: normal;
         font-weight: 800;
@@ -39,7 +39,7 @@ a:hover {
 }
 .p1 {
 color: #FFF;
-font-family: Lato;
+font-family: Lato, sans-serif;
 font-size: 48px;
 font-style: normal;
 font-weight: 800;
@@ -59,7 +59,7 @@ justify-content: center;
 flex-shrink: 0;
 color: #FFF;
 opacity: 0.5;
-font-family: Lato;
+font-family: Lato, sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -72,7 +72,7 @@ width: 529px;
 height: 177px;
 color: #FFF;
 
-font-family: Lato;
+font-family: Lato, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
@@ -112,7 +112,7 @@ height: 46px;
 flex-shrink: 0;
 color: #FFF;
 text-align: center;
-font-family: Lato;
+font-family: Lato, sans-serif;
 font-size: 38px;
 font-style: normal;
 font-weight: 700;
@@ -144,7 +144,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
                 height: 232px;
                 flex-shrink: 0;
                 color: #FFF;
-                font-family: Lato;
+                font-family: Lato, sans-serif;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 500;
@@ -159,7 +159,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
                 height: 232px;
                 flex-shrink: 0;
                 color: #FFF;
-                font-family: Lato;
+                font-family: Lato, sans-serif;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 500;
@@ -173,7 +173,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
                 height: 232px;
                 flex-shrink: 0;
                         color: #FFF;
-                        font-family: Lato;
+                        font-family: Lato, sans-serif;
                         font-size: 18px;
                                 font-style: normal;
         font-weight: 500;
@@ -187,7 +187,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
         height: 232px;
         flex-shrink: 0;
         color: #FFF;
-        font-family: Lato;
+        font-family: Lato, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
@@ -205,7 +205,7 @@ justify-content: space-evenly;
 
 .text-pakume {
         color: #FFF;
-font-family: Lato;
+font-family: Lato, sans-serif;
 font-size: 28px;
 font-style: normal;
 font-weight: 600;
@@ -219,7 +219,7 @@ letter-spacing: 2.8px;
 height: 33px;
 flex-shrink: 0;
 color: rgba(255, 255, 255, 0.75);
-font-family: Lato;
+font-family: Lato, sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
@@ -228,31 +228,19 @@ letter-spacing: 2.4px;
 }
 
 
-.ellipse {
-        width: 15px;
-        height: 15px;
-        background-color: #3498db;
-        border-radius: 50%;
-        position: absolute;
-        top: 50%; /* Adjust as needed */
-        left: 50%; /* Adjust as needed */
-        transform: translate(-50%, -50%); /* Center the ellipse */
-        flex-shrink: 0;
-    }
-    
 
     .text-iznad-tabele {
-width: 1151px;
-height: 46px;
-flex-shrink: 0;
-color: #FFF;
-text-align: center;
-font-family: Lato;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; /* 78.947% */
-letter-spacing: 3.8px;
+        color: #FFF;
+
+        text-align: center;
+                font-family: Lato, sans-serif;
+                        font-size: 38px;
+                        font-style: normal;
+                        font-weight: 700;
+                line-height: 30px;
+                        /* 78.947% */
+                        letter-spacing: 3.8px;
+                margin-right: 50px;
     }
 
 
@@ -260,7 +248,7 @@ letter-spacing: 3.8px;
 width: 758px;
 color: #FFF;
 text-align: center;
-font-family: Lato;
+font-family: Lato, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
@@ -366,3 +354,150 @@ stroke: #04043E;
                 display: flex;
 }
 
+
+.text-proba {
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        /* 138.889% */
+        letter-spacing: 1.8px;
+}
+
+
+
+
+
+.font-tabela {
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 107.143% */
+        letter-spacing: 2.8px;
+}
+
+
+.desni-font-tabele {
+        display: flex;
+        width: 380px;
+        height: 66px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 28px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 30px;
+        /* 107.143% */
+        letter-spacing: 2.8px;
+}
+
+
+.rectangle {
+        width: 956px;
+        height: 571px;
+        background-color: #070B40;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 24px;
+        flex-direction: column;
+        margin-left: 150px;
+}
+
+
+.div-tabele1 {
+        width: 956px;
+        height: 47px;
+        display: flex;
+        justify-content: space-between;
+        background: #1D2157
+}
+
+
+.div-tabele2 {
+        background: #070B40;
+        width: 956px;
+        height: 47px;
+        display: flex;
+        justify-content: space-between;
+}
+
+
+.veci-fontovi-tabele {
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 107.143% */
+        letter-spacing: 2.8px;
+        background: #070B40;
+}
+
+.font-svijetli {
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 166.667% */
+        letter-spacing: 1.8px;
+        background: #1D2157;
+}
+
+.font-tamni {
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 166.667% */
+        letter-spacing: 1.8px;
+        background: #070B40;
+}
+
+.background-color1 {
+        background: #070B40;
+}
+
+
+.background-color2 {
+        background: #1D2157;
+}
+
+.font-cijena-svijetli {
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 30px;
+        /* 166.667% */
+        letter-spacing: 1.8px;
+        background: #1D2157
+}
+
+.font-cijena-tamni {
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 30px;
+        /* 166.667% */
+        letter-spacing: 1.8px;
+        background: #070B40
+}
