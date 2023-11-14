@@ -119,6 +119,7 @@ font-weight: 700;
 line-height: 30px; /* 78.947% */
 letter-spacing: 3.8px;
 margin-top: 150px;
+margin-left: 50px;
 }
 
 .kartica1 {
@@ -131,7 +132,7 @@ align-items: center!important;
 }
 
 .slika-kartice1 {
-        width: 287px;
+        width: 269px;
 height: 179px;
 flex-shrink: 0;
 border-radius: 20px 20px 0px 0px;
@@ -151,6 +152,8 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
                 line-height: 25px;
                 /* 138.889% */
                 letter-spacing: 1.8px;
+                margin-inline-start: 1.5em;
+                        margin-inline-end: 1em;
         
         }
         
@@ -166,20 +169,24 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
                 line-height: 25px;
                 /* 138.889% */
                 letter-spacing: 1.8px;
+                margin-inline-start: 1.5em;
+                        margin-inline-end: 1em;
         }
         
         .text-kartice3 {
                 width: 216px;
                 height: 232px;
                 flex-shrink: 0;
-                        color: #FFF;
+                color: #FFF;
                         font-family: Lato, sans-serif;
                         font-size: 18px;
-                                font-style: normal;
-        font-weight: 500;
-        line-height: 25px;
+                        font-style: normal;
+                                font-weight: 500;
+                                line-height: 25px;
                 /* 138.889% */
-                letter-spacing: 1.8px;
+                letter-spacing: 2px;
+                        margin-inline-start: 1em;
+                        margin-inline-end: 0px;
         }
 
 .text-kartice4 {
@@ -191,9 +198,11 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 46.68%, rgba(0, 0, 0, 0.
         font-size: 18px;
         font-style: normal;
         font-weight: 500;
-        line-height: 25px;
+        line-height: 28px;
         /* 138.889% */
         letter-spacing: 1.8px;
+        margin-inline-start: 1.5em;
+                margin-inline-end: 1em;
 }
 
 
@@ -287,12 +296,15 @@ stroke: #04043E;
         gap: 10px;
         color: rgba(255, 255, 255, 0.75);
         text-align: center;
-        font-family: Roboto Mono;
-        font-size: 18px;
+        font-family: Roboto Mono, sans-serif;
+                font-size: 20px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: lighter;
         line-height: normal;
         cursor: pointer;
+        margin-inline-end: 3em;
+                gap: 2em;
+                letter-spacing: 1px;
 }
 
 .div1 {
@@ -498,4 +510,43 @@ stroke: #04043E;
         /* 166.667% */
         letter-spacing: 1.8px;
         background: #070B40
+}
+.zadnji-font {
+        color: #FFF;
+        font-family: Lato, sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 30px;
+        /* 166.667% */
+
+}
+
+
+
+
+.carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+}
+
+
+
+
+.text-ispod-tabele {
+        display: flex;
+        width: 1300px;
+        height: 46px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Lato, sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 78.947% */
+        letter-spacing: 3.8px;
 }
